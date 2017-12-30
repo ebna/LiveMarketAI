@@ -145,7 +145,7 @@ public class MainX {
 				
 		if(k == 0){
 			String base = "https://marketdata.websol.barchart.com/getQuote.json?";
-			String key = "apikey=6d556ee05fb060f2e2d66f4609d9a4a8&symbols=";
+			String key = "apikey=xxxxxxxxxxxxxxxxxxxxxxxxsymbols=";
 			url = base + key + tick;
 		} else {
 			url = "https://poloniex.com/public?command=returnTicker";           // Fetches your crypto currency prices
